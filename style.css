@@ -2,7 +2,7 @@
 .calculator {
     width: 300px;
     margin: 0 auto;
-    border: 1px solid #bd5e5e;
+    border: 1px solid#bd5e5e;
     border-radius: 5px;
     padding: 10px;
 }
@@ -11,13 +11,13 @@
     width: 100%;
     margin-bottom: 10px;
     padding: 5px;
-    font-size:18px;
-    background-color: rgb(230, 230, 236);
+    font-size: 18px;
+    background-color: crimson(230, 230, 236);
 }
 
-.buttons{
+.buttons {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat( 4, 1fr);
     grid-gap: 5px;
 }
 
@@ -25,14 +25,14 @@ button {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    background-color: #0afa0a;
+    background-color: blue;
     border: none;
 }
 button:hover{
     background-color: #fa0808;
 }
 button:active{
-    background-color: aqua;
+    background-color: #fa0808;
 }
 
 
